@@ -26,5 +26,13 @@ angular
 		.state('about', {
 			url: '/about',
 			templateUrl: 'views/about.html'
+		})
+		.state('officers', {
+			url: '/officers',
+			templateUrl: 'views/officers.html'
+		})
+		.state('workshops', {
+			url: '/workshops',
+			templateUrl: 'views/workshops/index.html'
 		});
   });
